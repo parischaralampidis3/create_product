@@ -8,3 +8,26 @@
 Υποχρεωτικό πεδίο για το product είναι το NAME.
 Είμαστε ελεύθεροι να εμφανισουμε τη φόρμα είτε σε νέο php είτε στο products.php
 Προτείνουμε η συνάρτηση που θα κάνει την νέα εγγραφή στο xml να μπει μέσα στην υπάρχουσα κλάση Products
+
+
+
+# PRODUCT FIEDS
+-------------
+
+- NAME
+- PRICE
+-QUANTITY
+-CATEGORY-
+-MANUFACTURER
+-BARCODE
+-WEIGHT
+-INSTOCK
+-AVAILABILITY
+
+# TASKS PRIORITY
+---------
+
+- run a php server executing through command line: 
+    - php -S localhost:8888
+
+- at the views directory i create a product form 
