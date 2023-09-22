@@ -1,8 +1,13 @@
 <?php
 class Products
 {
-
+    
+    /**
+     * This property seems to be  intended to store the path to your XML file
+     */
     private $xml_file_path = '';
+
+
 
     public function __construct($xml_file_path = '')
     {
@@ -16,9 +21,12 @@ class Products
     public function print_html_table_with_all_products()
     {
         //TODO 1:Θα πρέπει να συμπληρώσουμε την συνάρτηση ώστε να κάνει print το HTML table με τα προϊόντα του xml
-        $xmldata = simplexml_load_file($this->xml_file_path) or die("Failed to load");
+        $xmldata = simplexml_load_file($this->xml_file_path) or die("Failed to load");  
+        //var_dump($xmldata);
+
         $xml_data = $xmldata->children();
 
+      
         foreach ($xml_data->PRODUCTS->PRODUCT as $key => $prod) {
             
             $this->print_html_of_one_product_line($prod);
@@ -34,6 +42,7 @@ class Products
      */
     private function print_html_of_one_product_line($prod){
         //TODO 2: Θα πρέπει να συμπληρώσουμε τη συνάρτηση ώστε να κάνει print τα tr με τα στοιχεία του ενός προϊόντος
+
         //var_dump($prod);
     }
 }
