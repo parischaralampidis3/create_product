@@ -24,7 +24,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
     "inStock"=>$productInStock,
     "availability" => $productAvailability
     ];
-
+    //load xml products 
      $xml = simplexml_load_file("products.xml");
     if ($xml === false) {
         die("Failed to load or parse the XML file.");
@@ -52,7 +52,6 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
     } else {
         echo "Failed to save the XML file.";
     }
-
 }
 
 ?>

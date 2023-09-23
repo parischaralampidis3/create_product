@@ -33,3 +33,5 @@
 - at the views directory i create a product form 
 - now i as i added the method of the request and the action 
 - i need to handle the send request of the form with the input data.
+- data are saved into xml file.
+- in lib.php file i iterate through the product fields, through enabling a table

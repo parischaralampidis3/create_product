@@ -9,7 +9,7 @@
     $productsList = new Products("./products.xml");
     $productsList->print_html_table_with_all_products();
 
-
+   
 ?>
 
 </body>
