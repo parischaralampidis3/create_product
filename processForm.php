@@ -1,5 +1,5 @@
-<?php 
 
+<?php 
 if($_SERVER['REQUEST_METHOD'] == 'POST'){
 
     $productName = $_POST['productName'];

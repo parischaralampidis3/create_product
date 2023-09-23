@@ -2,7 +2,7 @@
 <html>
 <body>
 
-<h1>List of products</h1>
+<h1 style="font-size:30px;font-weight:bold;">List of products</h1>
 
 <?php
     require_once("./lib.php");

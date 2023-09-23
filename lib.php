@@ -1,3 +1,19 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://cdn.tailwindcss.com"></script>
+    <link href="styles/style.css" rel="stylesheet" />
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+
 <?php
 class Products
 {
@@ -29,8 +45,8 @@ class Products
         if($xml_data->PRODUCTS && $xml_data->PRODUCTS->PRODUCT){
 
    //this block of code contains a table code that prints product headings 
-           echo "<table border='1'>";
-            echo  "<tr>
+           echo "<table   border='1'>";
+            echo  "<tr class='tableStyle1'>
                         <th>Name</th>
                         <th>Price</th>
                         <th>Quantity</th>
