@@ -6,6 +6,7 @@
             <NAME>
                 <![CDATA[ROCKET COMPLETE SKATEBOARD RASTA FADE 8.0" Complete Skateboard από τη Rocket σε Μαύρο Rasta χρώμα]]>
             </NAME>
+
             <PRICE>
                         64.9
                     </PRICE>
@@ -29,6 +30,7 @@
             <NAME>
                 <![CDATA[TONY HAWK SS540 COMPLETE SKATE HIGHWAY MULTI 7.5" Tony Hawk Complete Skateboard σε χρώμα μαύρο]]>
             </NAME>
+
             <PRICE>
                         70
                     </PRICE>
@@ -48,4 +50,5 @@
             <INSTOCK>Y</INSTOCK>
             <AVAILABILITY>Άμεσα Διαθέσιμο</AVAILABILITY>
         </PRODUCT>
-   </mywebsite>
+    </PRODUCTS>
+</mywebsite>

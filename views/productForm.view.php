@@ -8,7 +8,7 @@
 </head>
 
 <body>
-    <div class="w-full">
+    <div class="w-full">i
         <div class="container">
             <div class="flex flex-col items-center justify-center mt-12">
                 <div class="bg-gray-100 p-6 shadow-md rounded-md">
@@ -16,7 +16,7 @@
                 </div>
 
 
-                <form class=" ml-6 mt-0 p-12 w-full h-screen" action="processForm.php" method="POST">
+                <form class=" ml-6 mt-0 p-12 w-full h-screen" action="products.php" method="POST">
                     <div class="flex flex-row justify-between p-12">
 
                         <!--first section-->
@@ -114,8 +114,10 @@
                     <div class="text-center mt-1 mx-auto">
                         <input class=" bg-blue-400 text-white text-lg font-bold mb-12 mt-6 w-2/4 rounded-md p-2 cursor"
                             type="submit" value="Υποβολή" />
+                        <input type="hidden" id="formSubmitted" name="formSubmitted" value="0">
                     </div>
                 </form>
+
 
             </div>
         </div>
@@ -123,3 +125,7 @@
 </body>
 
 </html>
+
+
+
+

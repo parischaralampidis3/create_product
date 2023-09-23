@@ -12,6 +12,22 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
     $productInStock = $_POST['productInStock'];
     $productAvailability = $_POST['productAvailability'];
 
+
+    if(
+         $productName === false ||
+    $productPrice === false ||
+     $productQuantity === false ||
+    $productCategory === false ||
+    $productManufacturer  === false ||
+    $productBarcode === false ||
+    $productWeight  === false ||    
+    $productInStock  === false ||
+    $productAvailability === false
+
+    ){
+        echo "Invalid input data. Please check your inputs.";
+    }
+
     //passing data into a new object as an associative array in order to provide more structure
     $new_product = [
     "name" => $productName,
@@ -30,7 +46,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
         die("Failed to load or parse the XML file.");
     }
 
-    $product_element = $xml -> addChild("PRODUCTS");
+  
 
     $product_element = $product_element->addChild("PRODUCT");
     $product_element -> addChild("NAME", $new_product["name"]);
@@ -48,7 +64,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
     //The asXML method formats the parent object's data in XML version 1.0. 
   
     if ($xml->asXML("products.xml")) {
-        echo "Product added successfully!";
+        echo "Product added successfully!"; 
     } else {
         echo "Failed to save the XML file.";
     }

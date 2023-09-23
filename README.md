@@ -24,6 +24,24 @@
 -INSTOCK
 -AVAILABILITY
 
+# SCOPE
+-------
+Form Submission: User submits data about a product through a form using a POST request.
+
+PHP Processing (processForm.php):
+
+PHP script receives the POST data.
+It creates an object or processes the data in some way.
+It saves the data to an XML file (e.g., "products.xml").
+Table Display (productList.php):
+
+Another PHP script loads the data from "products.xml."
+It generates an HTML table dynamically based on the XML data.
+The table is displayed on the frontend.
+Frontend Display: The HTML table is displayed on the frontend, showing the product data.
+
+This workflow is a common approach for handling form submissions and displaying data in a web application. If you have specific code you'd like me to review or if you encounter any issues along the way, please provide the code, and I'll be happy to assist you further.
+
 # DOCUMENTED ACTIONS
 ---------
 
