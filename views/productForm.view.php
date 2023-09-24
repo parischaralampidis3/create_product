@@ -5,24 +5,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="styles/style.css" rel="stylesheet" />
 </head>
 
 <body>
-    
+
     <div class="w-full">
         <div class="container">
             <div class="flex flex-col items-center justify-center mt-12">
-                <div class="bg-gray-100 p-6 shadow-md rounded-md">
-                    <h1 class=" text-center font-bold text-blue-600 text-4xl mx-auto">Φόρμα καταχώρησης προιόντος</h1>
+                <div class=" p-6">
+                    <h1  class=" font-bold text-blue-600 text-4xl ">Φόρμα καταχώρησης πρoϊόντος</h1>
+
                 </div>
 
 
-                <form class=" ml-6 mt-0 p-12 w-full h-screen" action="processForm.php" method="POST">
-                    <div class="flex flex-row justify-between p-12">
+                <form class=" mt-0  w-4/5 h-screen " action="processForm.php" method="POST">
+                    <div class="flex-section flex flex-row justify-between ">
 
                         <!--first section-->
-                        <div class="w-full mx-24">
-                            <div class=" items-center   ml-12 flex flex-col">
+                        <div class=" w-full ">
+                            <div class=" items-center   ml-2 flex flex-col">
                                 <label class="w-2/3 text-left text-blue-500 font-bold text-lg" for="productName">Όνομα:
                                 </label>
                                 <input
@@ -31,7 +33,7 @@
                                     placeholder="πρόσθεσε όνονα προιόντος.." required>
                             </div>
 
-                            <div class=" items-center  mt-2 ml-12 flex flex-col">
+                            <div class=" items-center  mt-2 ml-2 flex flex-col">
                                 <label class="w-2/3 text-left text-blue-500 font-bold text-lg" for="productPrice">Τιμή:
                                 </label>
                                 <input
@@ -40,7 +42,8 @@
                                     placeholder="πρόσθεσε τη τιμή του προιόντος..">
                             </div>
 
-                            <div class=" items-center  mt-2 ml-12 flex flex-col">
+                            <div class=" items-center  mt-2 ml-2 flex flex-col">
+
                                 <label class="w-2/3 text-left text-blue-500 font-bold text-lg"
                                     for="productQuantity">Ποσότητα: </label>
                                 <input
@@ -50,7 +53,7 @@
                             </div>
 
 
-                            <div class=" items-center  mt-2 ml-12 flex flex-col">
+                            <div class=" items-center  mt-2 ml-2 flex flex-col">
                                 <label class="w-2/3 text-left text-blue-500 font-bold text-lg"
                                     for="productCategory">Κατηγορία: </label>
                                 <input
@@ -82,7 +85,8 @@
 
 
                             <div class=" items-center  mt-2 ml-4 flex flex-col">
-                                <label class="w-2/3 text-left text-blue-500 font-bold text-lg" for="productWeight">Βάρος:
+                                <label class="w-2/3 text-left text-blue-500 font-bold text-lg"
+                                    for="productWeight">Βάρος:
                                 </label>
                                 <input
                                     class="mt-4 text-gray-700 rounded-md w-2/3 p-4 hover:bg-gray-100 focus:bg-gray-200"
@@ -126,7 +130,3 @@
 </body>
 
 </html>
-
-
-
-

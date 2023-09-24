@@ -2,7 +2,7 @@
 <html>
 <body>
 
-<h1 style="font-size:30px;font-weight:bold;">List of products</h1>
+<h1 style="font-size:30px;font-weight:bold;margin-bottom:20px;color:rgb(37 99 235);">Λίστα Προϊόντων</h1>
 
 <?php
     require_once("./lib.php");
@@ -14,3 +14,4 @@
 
 </body>
 </html>
+

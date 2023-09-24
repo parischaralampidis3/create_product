@@ -70,5 +70,16 @@
             <INSTOCK>yes</INSTOCK>
             <AVAILABILITY>yes</AVAILABILITY>
         </PRODUCT>
+        <PRODUCT>
+            <NAME>test03</NAME>
+            <PRICE>1239</PRICE>
+            <QUANTITY>99</QUANTITY>
+            <CATEGORY>testCategory2</CATEGORY>
+            <MANUFACTURER>testManufacturer2</MANUFACTURER>
+            <BARCODE>99999999999990001</BARCODE>
+            <WEIGHT>23</WEIGHT>
+            <INSTOCK>yes</INSTOCK>
+            <AVAILABILITY>yes</AVAILABILITY>
+        </PRODUCT>
     </PRODUCTS>
 </mywebsite>

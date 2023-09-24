@@ -45,7 +45,9 @@ class Products
         if($xml_data->PRODUCTS && $xml_data->PRODUCTS->PRODUCT){
 
    //this block of code contains a table code that prints product headings 
-           echo "<table   border='1'>";
+            echo "<div class='responsiveTable'>";
+            echo "<table   border='1'>";
+
             echo  "<tr class='tableStyle1'>
                         <th>Name</th>
                         <th>Price</th>
@@ -63,6 +65,7 @@ class Products
                     }
 
             echo "</table>";
+            echo "</div>";
                 
         }
     }
