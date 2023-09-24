@@ -1,5 +1,5 @@
 body{
-    padding:20px;
+
     max-width: 100%;
     box-sizing: border-box;
     max-height:100%;
@@ -14,6 +14,8 @@ table {
   .tableStyle1 th:nth-child(even){
          background-color: #8fceec;
   }
+
+  tr:nth-child(even){background-color: #ddd}
 
 
 th {   background-color: #03A9F4;

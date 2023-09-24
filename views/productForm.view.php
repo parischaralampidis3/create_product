@@ -19,7 +19,7 @@
                 </div>
 
 
-                <form class=" mt-0  w-4/5 h-screen " action="processForm.php" method="POST">
+                <form class=" mt-0  w-4/5 h-screen " action="processForm.php" method="POST" onsubmit="showAlert()">
                     <div class="flex-section flex flex-row justify-between ">
 
                         <!--first section-->
@@ -119,7 +119,6 @@
                     <div class="text-center mt-1 mx-auto">
                         <input class=" bg-blue-400 text-white text-lg font-bold mb-12 mt-6 w-2/4 rounded-md p-2 cursor"
                             type="submit" value="Υποβολή" />
-                        <input type="hidden" id="formSubmitted" name="formSubmitted" value="0">
                     </div>
                 </form>
 
@@ -127,6 +126,11 @@
             </div>
         </div>
     </div>
+     <script>
+        function showAlert() {
+            alert("Η φόρμα υποβλήθηκε επιτυχώς!");
+        }
+    </script>
 </body>
 
 </html>

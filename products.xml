@@ -47,39 +47,6 @@
             </WEIGHT>
             <INSTOCK>Y</INSTOCK>
             <AVAILABILITY>Άμεσα Διαθέσιμο</AVAILABILITY>
-        </PRODUCT>
-        <PRODUCT>
-            <NAME>test1</NAME>
-            <PRICE>1239</PRICE>
-            <QUANTITY>99</QUANTITY>
-            <CATEGORY>testCategory1</CATEGORY>
-            <MANUFACTURER>testManufacturer1</MANUFACTURER>
-            <BARCODE>99999999999990001</BARCODE>
-            <WEIGHT>232</WEIGHT>
-            <INSTOCK>yes</INSTOCK>
-            <AVAILABILITY>yes</AVAILABILITY>
-        </PRODUCT>
-        <PRODUCT>
-            <NAME>test12</NAME>
-            <PRICE>12398</PRICE>
-            <QUANTITY>99</QUANTITY>
-            <CATEGORY>testCategory1</CATEGORY>
-            <MANUFACTURER>testManufacturer1</MANUFACTURER>
-            <BARCODE>99999999999990001</BARCODE>
-            <WEIGHT>232</WEIGHT>
-            <INSTOCK>yes</INSTOCK>
-            <AVAILABILITY>yes</AVAILABILITY>
-        </PRODUCT>
-        <PRODUCT>
-            <NAME>test03</NAME>
-            <PRICE>1239</PRICE>
-            <QUANTITY>99</QUANTITY>
-            <CATEGORY>testCategory2</CATEGORY>
-            <MANUFACTURER>testManufacturer2</MANUFACTURER>
-            <BARCODE>99999999999990001</BARCODE>
-            <WEIGHT>23</WEIGHT>
-            <INSTOCK>yes</INSTOCK>
-            <AVAILABILITY>yes</AVAILABILITY>
-        </PRODUCT>
+            </PRODUCT>
     </PRODUCTS>
 </mywebsite>

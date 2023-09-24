@@ -20,6 +20,26 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
 
     $productAvailability = $_POST['productAvailability'];
 
+
+    //convert numeric values to use . instead of , (eg.weight )
+      $productPrice = str_replace(',', '.', $productPrice);
+      $productQuantity = str_replace(',','.', $productQuantity);
+      $productWeight = str_replace(',','.',$productWeight);
+
+
+
+        $productInStock = str_replace(['ναι','Ναι','yes', 'Yes', 'y'], 'N', $productInStock);
+        $productInStock = str_replace(['όχι','Όχι','no', 'No', 'n'], 'N', $productInStock);
+
+
+        $productInStock = str_replace(['ναι','Ναι','yes', 'Yes', 'y'], 'N', $productInStock);
+        $productInStock = str_replace(['όχι','Όχι','no', 'No', 'n'], 'N', $productInStock);
+
+
+
+        $productAvailability = str_replace(['Διαθεσιμο','διαθέσιμο','ναι','Ναι','yes', 'Yes', 'y','Υ'], 'Άμεσα Διαθέσιμο', $productAvailability);
+        $productAvailability = str_replace(['μη διαθέσιμο','μη Διαθέσιμο','όχι','Όχι','no', 'No', 'n','Ν'], 'Μη Διαθέσιμο', $productAvailability);
+      
     //passing data into a new object as an associative array in order to provide more structure
 
     $new_product = [
@@ -79,6 +99,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
     //The asXML method formats the parent object's data in XML version 1.0. 
 
   
+    
 
     if ($xml->asXML("products.xml")) {
 

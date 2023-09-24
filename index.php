@@ -15,4 +15,6 @@
 
 </html>
 
+<?php require("views/partials/navigation.php");?>
+
 <?php require("views/productForm.view.php"); ?>
