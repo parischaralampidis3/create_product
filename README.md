@@ -48,10 +48,10 @@ This workflow is a common approach for handling form submissions and displaying 
 - run a php server executing through command line: 
     - php -S localhost:8888
 
-- at the views directory i create a product form 
-- now i as i added the method of the request and the action 
+- at the views directory i create a product form.
+- now i as i added the method of the request and the action.
 - i need to handle the send request of the form with the input data.
 - data are saved into xml file.
-- in lib.php file i iterate through the product fields, through enabling a table 
-- i changed my action method in form in order to redirect the submission to table
-- in products.php i get my lib.php file and be able to render the tables
+- in lib.php file i iterate through the product fields, through enabling a table.
+- i changed my action method in form in order to redirect the submission to table.
+- in products.php i get my lib.php file and be able to render the tables.

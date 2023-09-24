@@ -16,8 +16,9 @@ table {
 
 
 th {   background-color: #03A9F4;
-    padding:20px;
+    padding:24px;
     text-align: left;
+    font-weight:bold;
      color:#ffffff  ;
       font-weight: 500;
     font-size:18px;

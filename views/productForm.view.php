@@ -8,7 +8,8 @@
 </head>
 
 <body>
-    <div class="w-full">i
+    
+    <div class="w-full">
         <div class="container">
             <div class="flex flex-col items-center justify-center mt-12">
                 <div class="bg-gray-100 p-6 shadow-md rounded-md">
@@ -16,7 +17,7 @@
                 </div>
 
 
-                <form class=" ml-6 mt-0 p-12 w-full h-screen" action="products.php" method="POST">
+                <form class=" ml-6 mt-0 p-12 w-full h-screen" action="processForm.php" method="POST">
                     <div class="flex flex-row justify-between p-12">
 
                         <!--first section-->
