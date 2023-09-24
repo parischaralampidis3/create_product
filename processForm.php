@@ -28,11 +28,9 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
 
 
 
-        $productInStock = str_replace(['ναι','Ναι','yes', 'Yes', 'y'], 'N', $productInStock);
-        $productInStock = str_replace(['όχι','Όχι','no', 'No', 'n'], 'N', $productInStock);
+ 
 
-
-        $productInStock = str_replace(['ναι','Ναι','yes', 'Yes', 'y'], 'N', $productInStock);
+        $productInStock = str_replace(['ναι','Ναι','yes', 'Yes', 'y'], 'Y', $productInStock);
         $productInStock = str_replace(['όχι','Όχι','no', 'No', 'n'], 'N', $productInStock);
 
 
