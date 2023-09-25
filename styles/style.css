@@ -5,25 +5,32 @@ body{
     max-height:100%;
     margin:0;
     background-color: #f4f6f7;
+
+      min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
 }
 table {
+  padding:10px;
     border-collapse: collapse;
     width: 100%;
 }
 
   .tableStyle1 th:nth-child(even){
-         background-color: #8fceec;
+         background-color: #ddd;
   }
 
   tr:nth-child(even){background-color: #ddd}
 
 
-th {   background-color: #03A9F4;
-    padding:5px;
+th {   background-color: #87bdea;
+
+    padding:10px;
     text-align: left;
-    font-weight:bold;
-     color:#ffffff  ;
-      font-weight: 500;
+    font-weight: bold;
+     color:#000000;
+
     font-size:18px;
 }
 td{
@@ -34,6 +41,17 @@ td{
   display:flex;
   flex-direction: row;
   
+}
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #333; /* Adjust the background color as needed */
+    color: white; /* Adjust the text color as needed */
+    text-align: center; /* Center the content horizontally */
+    padding: 10px; /* Add some padding for spacing */
 }
 
 
@@ -63,6 +81,14 @@ th{
 td{
  padding:10px;
  font-size:10px;
+}
+
+
+body{
+      min-height: 180vh;
+    display: flex;
+    flex-direction: column;
+
 }
 }
 

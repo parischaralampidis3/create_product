@@ -82,7 +82,7 @@ class Products
                 
             echo "<tr>";
                 echo "<td>" . $product -> NAME . "</td>";
-                echo "<td>" . $product -> PRICE . " €</td>";
+                echo "<td>" . $product -> PRICE . "€</td>";
                 echo "<td>" . $product -> QUANTITY . "</td>";
                 echo "<td>" . $product -> CATEGORY . "</td>";
                 echo "<td>" . $product -> MANUFACTURER . "</td>";

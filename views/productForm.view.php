@@ -121,8 +121,6 @@
                             type="submit" value="Υποβολή" />
                     </div>
                 </form>
-
-
             </div>
         </div>
     </div>

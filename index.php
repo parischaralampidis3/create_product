@@ -5,7 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="styles/style.css" rel="stylesheet" />
+
+
+    <link rel="preload" href="styles/style.css" as="style" onload="this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="styles/style.css"></noscript>
     <title>Products</title>
 </head>
 
@@ -18,3 +21,5 @@
 <?php require("views/partials/navigation.php");?>
 
 <?php require("views/productForm.view.php"); ?>
+
+<?php require("views/partials/footer.php");?>
