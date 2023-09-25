@@ -43,10 +43,10 @@ The table is displayed on the frontend.
 - run a php server executing through command line: 
     - php -S localhost:8888
 
-- at the views directory i create a product form.
-- now i as i added the method of the request and the action.
-- i need to handle the send request of the form with the input data.
+- at the views directory I create a product form.
+- now I add the method of the request and the action.
+- Ι need to handle the send request of the form with the input data.
 - data are saved into xml file.
-- in lib.php file i iterate through the product fields, through enabling a table.
-- in products.php i get my lib.php file and be able to render the tables.
+- ιn lib.php file I iterate through the product fields, through enabling a table.
+- in products.php I get my lib.php file and be able to render the tables.
 
