@@ -7,8 +7,8 @@
     <script src="https://cdn.tailwindcss.com"></script>
 
 
-    <link rel="preload" href="styles/style.css" as="style" onload="this.rel='stylesheet'">
-<noscript><link rel="stylesheet" href="styles/style.css"></noscript>
+    <link rel="stylesheet" href="styles/style.css">
+
     <title>Products</title>
 </head>
 

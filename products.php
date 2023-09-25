@@ -2,7 +2,11 @@
 <html>
 <body>
 <?php require("views/partials/navigation.php");?>
-<h1 style="font-size:30px;font-weight:bold;margin-bottom:20px;color:rgb(37 99 235);">Λίστα Προϊόντων</h1>
+
+      <div class=" p-6 mt-6 mb-6 mx-auto">
+                    <h1  class=" heading font-bold text-blue-600 text-4xl ">Λίστα πρoϊόντων</h1>
+
+                </div>
 
 <?php
     require_once("./lib.php");

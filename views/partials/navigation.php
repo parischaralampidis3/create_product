@@ -7,7 +7,7 @@
 
 
         <div class="text-left flex items-center">
-            <h1 class="font-bold text-white text-xl">Φόρμα Καταχώρησης Προϊοντος</h1>
+            <h1 class="font-bold text-white text-xl">Φόρμα Καταχώρησης Προϊόντος</h1>
         </div>
 
 
