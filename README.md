@@ -26,21 +26,16 @@
 
 # SCOPE
 -------
-Form Submission: User submits data about a product through a form using a POST request.
+At the productForm.php a user submits data about a product through a form using a POST request.
 
-PHP Processing (processForm.php):
 
-PHP script receives the POST data.
-It creates an object or processes the data in some way.
-It saves the data to an XML file (e.g., "products.xml").
-Table Display (productList.php):
+The file ProcessForm.php script receives the POST data, creates an object or processes the data in some way.
+Also  saves the data to an XML file (e.g., "products.xml").
 
-Another PHP script loads the data from "products.xml."
+Another PHP script loads the data from "products.xml.",
 It generates an HTML table dynamically based on the XML data.
-The table is displayed on the frontend.
-Frontend Display: The HTML table is displayed on the frontend, showing the product data.
 
-This workflow is a common approach for handling form submissions and displaying data in a web application. If you have specific code you'd like me to review or if you encounter any issues along the way, please provide the code, and I'll be happy to assist you further.
+The table is displayed on the frontend.
 
 # DOCUMENTED ACTIONS
 ---------
@@ -53,5 +48,5 @@ This workflow is a common approach for handling form submissions and displaying 
 - i need to handle the send request of the form with the input data.
 - data are saved into xml file.
 - in lib.php file i iterate through the product fields, through enabling a table.
-- i changed my action method in form in order to redirect the submission to table.
 - in products.php i get my lib.php file and be able to render the tables.
+

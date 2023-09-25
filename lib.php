@@ -1,18 +1,19 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
     <link href="styles/style.css" rel="stylesheet" />
-   
+
     <title>Document</title>
 </head>
+
 <body>
-    
+
 </body>
+
 </html>
 
 <?php
@@ -36,20 +37,20 @@ class Products
 
         /**
          * this function loads the xml file and creates an xml object 
-        * if the load fails an error is produced 'Failed to load'
+         * if the load fails an error is produced 'Failed to load'
          */
         $xmldata = simplexml_load_file($this->xml_file_path) or die("Failed to load");
 
         $xml_data = $xmldata->children();
 
 
-        if($xml_data->PRODUCTS && $xml_data->PRODUCTS->PRODUCT){
+        if ($xml_data->PRODUCTS && $xml_data->PRODUCTS->PRODUCT) {
 
-   //this block of code contains a table code that prints product headings 
+            //this block of code contains a table code that prints product headings 
             echo "<div class='responsiveTable'>";
             echo "<table   border='1'>";
 
-            echo  "<tr class='tableStyle1'>
+            echo "<tr class='tableStyle1'>
                         <th>Name</th>
                         <th>Price</th>
                         <th>Quantity</th>
@@ -61,13 +62,13 @@ class Products
                         <th>Availability</th>
                     </tr>";
 
-            foreach ($xml_data->PRODUCTS->PRODUCT as $product) {             
-                        $this->print_html_of_one_product_line($product);
-                    }
+            foreach ($xml_data->PRODUCTS->PRODUCT as $product) {
+                $this->print_html_of_one_product_line($product);
+            }
 
             echo "</table>";
             echo "</div>";
-                
+
         }
     }
 
@@ -76,27 +77,27 @@ class Products
      * @param mixed $prod It is the product object as retrieved from the xml file
      * @return void 
      */
-    private function print_html_of_one_product_line($product){
+    private function print_html_of_one_product_line($product)
+    {
         //TODO 2: Θα πρέπει να συμπληρώσουμε τη συνάρτηση ώστε να κάνει print τα tr με τα στοιχεία του ενός προϊόντος
-        try{
+        try {
 
-                
+
             echo "<tr>";
-                echo "<td>" . $product -> NAME . "</td>";
-                echo "<td>" . $product -> PRICE . "€</td>";
-                echo "<td>" . $product -> QUANTITY . "</td>";
-                echo "<td>" . $product -> CATEGORY . "</td>";
-                echo "<td>" . $product -> MANUFACTURER . "</td>";
-                echo "<td>" . $product -> BARCODE . "</td>";
-                echo "<td>" . $product -> WEIGHT . "</td>";
-                echo "<td>" . $product -> INSTOCK . "</td>";
-                echo "<td>" . $product -> AVAILABILITY . "</td>"; 
-                echo "</tr>" ;
-         
+            echo "<td>" . $product->NAME . "</td>";
+            echo "<td>" . $product->PRICE . "€</td>";
+            echo "<td>" . $product->QUANTITY . "</td>";
+            echo "<td>" . $product->CATEGORY . "</td>";
+            echo "<td>" . $product->MANUFACTURER . "</td>";
+            echo "<td>" . $product->BARCODE . "</td>";
+            echo "<td>" . $product->WEIGHT . "</td>";
+            echo "<td>" . $product->INSTOCK . "</td>";
+            echo "<td>" . $product->AVAILABILITY . "</td>";
+            echo "</tr>";
+
+        } catch (Exception $e) {
+            echo 'No product available:', $e->getMessage();
         }
-        catch(Exception $e){
-            echo 'No product available:' , $e -> getMessage();
-        }
-   
+
     }
 }

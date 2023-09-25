@@ -14,7 +14,7 @@
         <div class="container">
             <div class="flex flex-col items-center justify-center mt-12">
                 <div class=" p-6">
-                    <h1  class="heading font-bold text-blue-600 text-4xl ">Φόρμα καταχώρησης πρoϊόντος</h1>
+                    <h1 class="heading font-bold text-blue-600 text-4xl ">Φόρμα καταχώρησης πρoϊόντος</h1>
 
                 </div>
 
@@ -25,7 +25,8 @@
                         <!--first section-->
                         <div class=" w-full ">
                             <div class=" items-center   ml-2 flex flex-col">
-                                <label class="label-title w-2/3 text-left text-blue-500 font-bold text-lg" for="productName">Όνομα:
+                                <label class="label-title w-2/3 text-left text-blue-500 font-bold text-lg"
+                                    for="productName">Όνομα:
                                 </label>
                                 <input
                                     class="mt-4 text-gray-700 rounded-md w-2/3 p-4 hover:bg-gray-100 focus:bg-gray-200"
@@ -34,7 +35,8 @@
                             </div>
 
                             <div class=" items-center  mt-2 ml-2 flex flex-col">
-                                <label class="label-title w-2/3 text-left text-blue-500 font-bold text-lg" for="productPrice">Τιμή:
+                                <label class="label-title w-2/3 text-left text-blue-500 font-bold text-lg"
+                                    for="productPrice">Τιμή:
                                 </label>
                                 <input
                                     class="mt-4 text-gray-700 rounded-md w-2/3 p-4 hover:bg-gray-100 focus:bg-gray-200"
@@ -95,7 +97,8 @@
                             </div>
 
                             <div class=" items-center  mt-2 ml-4 flex flex-col">
-                                <label class="label-title w-2/3 text-left text-blue-500 font-bold text-lg" for="productInStock">In
+                                <label class="label-title w-2/3 text-left text-blue-500 font-bold text-lg"
+                                    for="productInStock">In
                                     stock: </label>
                                 <input
                                     class="mt-4 text-gray-700 rounded-md w-2/3 p-4 hover:bg-gray-100 focus:bg-gray-200"
@@ -117,14 +120,14 @@
                     </div>
 
                     <div class="text-center mt-1 mx-auto">
-                        <input class=" bg-blue-400 text-white text-lg font-bold mb-12 mt-6 w-2/4 rounded-md p-2 cursor"
+                        <input class=" bg-blue-400 text-white text-lg font-bold mb-12 mt-12 w-2/4 rounded-md p-2 cursor"
                             type="submit" value="Υποβολή" />
                     </div>
                 </form>
             </div>
         </div>
     </div>
-     <script>
+    <script>
         function showAlert() {
             alert("Η φόρμα υποβλήθηκε επιτυχώς!");
         }
